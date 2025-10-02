@@ -1,0 +1,128 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: black;
+}
+
+.content {
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 200, 60, 0.5);
+}
+
+.msg {
+  height: 60px;
+  width: 50vh;
+  border-radius: 1rem;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 200, 60, 0.5);
+}
+
+h1 {
+  color: wheat;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form select,
+button,
+input {
+    background-color: rgb(243, 223, 223);
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  outline: none;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+form select {
+  border: none;
+  width: 50%;
+  font-size: 1rem;
+}
+
+form input {
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.dropdown i {
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.select-container img {
+  max-width: 3rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: 2px solid gray;
+}
+
+.amount p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.btn:hover,
+select:hover {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0b0b0b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(255,255,255,0.03);
+  cursor: pointer;
+}
